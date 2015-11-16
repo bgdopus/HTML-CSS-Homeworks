@@ -1,0 +1,65 @@
+div {
+width: 430px;
+background-color: #FFC0CB;
+}
+span {
+    font-family:Calibri;
+    font-style:italic;
+    font-size:small;
+}
+form {
+    display: inline-block;
+}
+    form p {
+        padding: 0px;
+    }
+body h1 {
+    font-family:Calibri;
+    text-transform: uppercase;
+    font-style:italic;
+    text-align: center;
+}
+#form1 {
+    padding-left: 8px;
+    vertical-align: top;
+}
+#form2 {
+    
+}
+#placeFrom {
+    width:95%;
+    
+    margin-bottom: 23px;
+}
+#startDate {
+   width:95%;
+}
+#endDate {
+    width:95%;
+}
+#placeTo {
+    width:95%;
+}
+#preferCheck {
+    margin-bottom: 5px;
+  
+}
+#checkText {
+    font-size: small;
+    font-style:italic;
+}
+#travelClass {
+    width: 95%;
+}
+#sbmButton {
+    height: 30px;
+    width: 95%;
+    margin-bottom: 8px;
+    margin-top: 2px;
+}
+#group2 {
+    margin-left:52px;
+}
+#group3 {
+    margin-left:36px;
+}

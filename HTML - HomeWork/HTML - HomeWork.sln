@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F951A733-6282-425D-B3C1-D11DCF1EFFD8}"
+	ProjectSection(SolutionItems) = preProject
+		Friends.html = Friends.html
+		Home.html = Home.html
+		Problem1.html = Problem1.html
+		Problem2.html = Problem2.html
+		Problem3.html = Problem3.html
+		Problem4.html = Problem4.html
+		Problem5.html = Problem5.html
+		Profile.html = Profile.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{2F232032-8276-4361-8882-E7B4100612A6}"
+	ProjectSection(SolutionItems) = preProject
+		styles\doge_style.css = styles\doge_style.css
+		styles\style.css = styles\style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F232032-8276-4361-8882-E7B4100612A6} = {F951A733-6282-425D-B3C1-D11DCF1EFFD8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+
+p {
+    margin: 0;
+}
+p.bold {
+font-weight: bold;
+font-size: 22px;
+}
+
+td.tdstyle {
+width: 200px;
+}

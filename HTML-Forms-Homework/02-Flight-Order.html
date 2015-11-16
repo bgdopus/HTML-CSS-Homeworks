@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="styles/02_style.css" rel="stylesheet" />
+    <title>Flight Order</title>
+</head>
+<body>
+    <div>
+    <h1>flight order</h1>
+    <form id="form1">
+        <span>From</span>
+        <br />
+        <select name="placeFrom" id="placeFrom" class="dropdown">
+							<option value="enter">enter a city</option>
+							<option value="Sf">Sofia</option>
+							<option value="Ny">New York</option>
+							<option value="Ln">London</option>
+         </select>
+        <br />
+        <span>Departure Date</span>
+        <br />
+        <input type="date" name="startDate"  id="startDate"/>
+        <br />
+        <span>Return Date</span>
+        <br />
+        <input type="date" name="endDate" id="endDate"  />
+        <br />
+        <span id="group1">12+</span><span id="group2">2-12</span><span id="group3">0-2</span>
+        <br />
+        <input type="number" min="0" max="20"/>
+        <input type="number" min="0" max="8"/>
+        <input type="number" min="0" max="4"/>
+        <br />
+        
+    </form>
+    <form id="form2">
+        <span>To</span>
+        <br />
+        <select name="placeTo" id="placeTo" class="dropdown">
+							<option value="enter">enter a city</option>
+							<option value="Sf">Sofia</option>
+							<option value="Ny">New York</option>
+							<option value="Ln">London</option>
+        </select>
+        <br />
+        <input type="checkbox" name="prefer" id="preferCheck"/><span id="checkText">Prefer directs</span>
+        <br />
+        <span>Time Interval</span>
+        <br />
+        <input type="time" name="depFrom" />
+        <input type="time" name="depTo" />
+        <br />
+        <span>Time Interval</span>
+        <br />
+        <input type="time" name="depFrom" />
+        <input type="time" name="depTo" />
+        <br />
+        <span>Choose Class</span>
+        <br />
+        <select id="travelClass">
+            <option>Economy</option>
+            <option>First Class</option>
+            <option>Business</option>
+        </select>
+        <br />
+        <input type="button" name="submit" value="Search" id="sbmButton"/>
+    </form>
+</div>
+</body>
+</html>

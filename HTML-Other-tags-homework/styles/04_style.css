@@ -1,0 +1,92 @@
+html, body, header, nav, h1, form, a, aside, main, span, h2, h3, h4 { 
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri;
+}
+
+#search {display: inline-block;width:225px;}
+nav { display: inline-block; width:1100px;}
+
+h1 {
+    display: block;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color:#B8B8B8;
+    margin-left: 70px;
+}
+
+#leftside {
+    display: inline-block;
+    width:160px;
+    height: 500px;
+    vertical-align: top;
+}
+
+#whitespace {height: 30px;}
+#leftside a {display: block; color:blue; margin-left: 10px;}
+
+main {
+    display: inline-block;
+    width:950px;
+    height: 500px;
+    padding:10px;
+}
+    
+main section {width:600px;margin-left: 30px;}
+main section span {font-family:monospace; font-size: 12px;}
+main a {margin:0;color:blue;}
+
+#rightside {
+    display: inline-block;
+    vertical-align: top;
+    height: 500px;
+    width:200px;
+}
+
+#tweetmsg { 
+    height: 30px; 
+    line-height: 30px; 
+    padding-left: 30px; 
+    background: #E0E0E0; 
+    color:#B8B8B8; 
+    font-style:italic;
+    padding-left: 50px;
+}
+    #tweetmsg img {
+        width: 20px;
+        height: 20px;
+        vertical-align: bottom;
+        padding-bottom: 5px;
+        padding-right: 5px;
+    }
+
+footer {
+    height: 150px;
+    background: black;
+    color:white;
+    padding: 5px;
+}
+footer section { display: inline-block; width:200px; height: 140px; vertical-align: top; margin-left: 50px}
+footer p {color:#B8B8B8;}
+footer a {color:white; margin-left: 0;}
+footer h3 {margin-bottom: 10px;}
+#rightside h3{
+    color: #B8B8B8;
+    font-size: medium;
+    font-weight: 100;
+}
+.user {
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+.comment {
+    color: #B8B8B8;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    
+}

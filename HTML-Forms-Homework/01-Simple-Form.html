@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="styles/01_style.css" rel="stylesheet" />
+    <title>Simple Form</title>
+</head>
+<body>
+  <h2>Enter the system</h2>
+    <p>It is necessary to login in Your account in order to sign in for a course.</p>
+    <form method="get" id="regForm">
+        <fieldset id="register">
+            <h3>Are you new?
+                <span id="reg">Register</span>
+            </h3>
+            <input type="text" name="user" id="regUser" placeholder="User name" required="required">
+            <br>
+            <input type="email" name="email" id="regEmail" placeholder="Email" required="required">
+            <br>
+            <input type="password" name="pass" id="regPass" placeholder="Password" required="required">
+            <br>
+            <input type="password" name="pass" id="confirmPass" placeholder="Confirm password" required="required" onchange="checkPasswordMatch();">
+            <div class="registrationFormAlert" id="divCheckPasswordMatch" style="width: 100%;"></div>
+            <br>
+            <input type="submit" value="Register" id="regBtn">
+        </fieldset>
+    </form>
+    <form method="get">
+        <fieldset id="login">
+            <h3>Already a student? Login</h3>
+            <input type="text" name="user" id="logUser" placeholder="User name" required="required">
+            <br>
+            <input type="password" name="pass" id="logPass" placeholder="Password" required="required">
+            <br>
+            <input type="checkbox" name="remember" id="remember">
+            <label for="remember" class="remember">Remember me?</label>
+            <input type="submit" value="Login" id="logBtn">
+            <br>
+            <a href="https://softuni.bg/account/forgottenpassword">Forgot password</a>
+        </fieldset>
+    </form>
+</body>
+</html>

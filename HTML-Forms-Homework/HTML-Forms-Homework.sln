@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7932E5DE-004B-4DC2-AB4B-80D93005F7DB}"
+	ProjectSection(SolutionItems) = preProject
+		01-Simple-Form.html = 01-Simple-Form.html
+		test.html = test.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{BD15008A-BB2A-4F3C-B9B4-87D4D9E2E36B}"
+	ProjectSection(SolutionItems) = preProject
+		styles\01_style.css = styles\01_style.css
+		styles\test.css = styles\test.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD15008A-BB2A-4F3C-B9B4-87D4D9E2E36B} = {7932E5DE-004B-4DC2-AB4B-80D93005F7DB}
+	EndGlobalSection
+EndGlobal

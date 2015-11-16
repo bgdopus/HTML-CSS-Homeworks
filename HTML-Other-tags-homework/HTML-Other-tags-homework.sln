@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC4AE6D0-3FC7-4AA8-9FB1-0E325C0EAE0B}"
+	ProjectSection(SolutionItems) = preProject
+		01-Refactor-Webpage.html = 01-Refactor-Webpage.html
+		02-Kent's-Media-Profile.html = 02-Kent's-Media-Profile.html
+		03-Magic-Car-Gallery.html = 03-Magic-Car-Gallery.html
+		04-BGJUG-WebPage.html = 04-BGJUG-WebPage.html
+		05-JavaScript-Worship.html = 05-JavaScript-Worship.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{C47A8DF3-E511-40D9-B006-3AD20B376C87}"
+	ProjectSection(SolutionItems) = preProject
+		styles\02_style.css = styles\02_style.css
+		styles\03_style.css = styles\03_style.css
+		styles\04_style.css = styles\04_style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C47A8DF3-E511-40D9-B006-3AD20B376C87} = {EC4AE6D0-3FC7-4AA8-9FB1-0E325C0EAE0B}
+	EndGlobalSection
+EndGlobal

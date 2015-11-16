@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="styles/04_style.css" rel="stylesheet" />
+    <title>Facebook Register Page</title>
+</head>
+<body>
+    <div>
+        <img src="images/facebook_logo.png" />
+        <h1>Registration</h1>
+        <h3>It is safe and it will always be!</h3>
+        <fieldset id="noneField">
+            <legend align="center">None-Important Information</legend>
+            <input type="text" name="firstName" value="First Name"  class="colum1"/>
+            <input type="text" name="lastName" value="Last Name" class="colum1"/>
+            <br />
+            <input type="text" name="email" value="Your Email" class="colum1"/>
+            <input type="text" name="phoneNum" value="Phone Number" class="colum1"/>
+            <br />
+            <input type="text" name="pass" value="Your Password" class="colum1"/>
+            <input type="text" name="website" value="Your Website" class="colum1"/>
+            <br />
+            <span>Birthdate</span>
+            <br />
+            <input type="datetime" name="birthdate" />
+            <br />
+            <input type="radio" name="gen" value="1" id="radio" />Female
+            <input type="radio" name="gen" value="2" />Male
+            <input type="radio" name="gen" value="3" />Other
+        </fieldset>
+       
+        <fieldset id="importantField">
+            <legend align="center">Important Information*required</legend>
+            <select id="country" class="colum1" >
+                <option>Country</option>
+                <option>Bulgaria</option>
+                <option>USA</option>
+                <option>UK</option>
+            </select>
+            <input type="text" name="village" value="Village" id="village" class="colum2"/>
+            <input type="text" name="district" value="District" id="district" class="colum3"/>
+            <br />
+            <input type="text" name="str" value="Street" id="str" class="colum1"/>
+            <input type="text" name="nr" value="Nr" id="nr" class="smallField"/>
+            <input type="text" name="floor" value="Floor" id="floor" class="smallField"/>
+            <input type="text" name="Apt Nr" value="Apt Nr" id="aptNr" class="smallField"/>
+            <br />
+            Door Color
+            <br />
+            <input type="color" name="background" value="#FF80C0" id="bgcolor" class="colum1" />
+            <input type="text" name="waterM" value="Water Meter Nr" id="waterM" class="colum2"/>
+             <select class="colum3">
+                <option>Aunt Panties Size</option>
+                <option>45</option>
+                <option>46</option>
+                <option>47</option>
+            </select>
+            <br />
+            <span>More Personal Information</span>
+            <br />
+            <textarea name="persInfo" id="persInfo" cols="46" rows="3" placeholder="Give Us More Information" required="required"></textarea>
+            
+        </fieldset>
+        <div id="div2">
+        <form>
+            <input type="button" name="clearForm" value="Clear Form" id="clearBtn"/>
+            <input type="button" name="register" value="Register" id="registerBtn" />
+        </form></div>
+    </div>
+</body>
+</html>

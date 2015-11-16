@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{26798C7C-5BF2-47D7-8CDE-A4DD10476639}"
+	ProjectSection(SolutionItems) = preProject
+		01-World-Cup-Brazil.html = 01-World-Cup-Brazil.html
+		02-Color-Kitchen.html = 02-Color-Kitchen.html
+		03-SoftUni-Student.html = 03-SoftUni-Student.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{5A79DA4C-5973-4A98-813A-A15339CC8FC1}"
+	ProjectSection(SolutionItems) = preProject
+		styles\01_style.css = styles\01_style.css
+		styles\02_style.css = styles\02_style.css
+		styles\03_style.css = styles\03_style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A79DA4C-5973-4A98-813A-A15339CC8FC1} = {26798C7C-5BF2-47D7-8CDE-A4DD10476639}
+	EndGlobalSection
+EndGlobal

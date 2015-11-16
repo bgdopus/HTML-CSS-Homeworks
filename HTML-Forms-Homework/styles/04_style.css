@@ -1,0 +1,88 @@
+body {
+background-color: #375794;
+color: white;
+font-family:Arial;
+
+}
+
+div h1 {
+    margin-left: 250px;
+}
+div h3 {
+    margin-left: 180px;
+}
+fieldset {
+display:inline-block;
+font-size: small;
+font-weight: bold;
+-moz-border-radius:7px;  
+  border-radius: 7px;  
+  -webkit-border-radius: 7px;
+  border-bottom-color: white;
+  margin-bottom:15px;
+  
+}
+
+input, select, textarea{
+    color:#808080;
+}
+textarea:focus, input:focus, select:focus {
+    color: #424242;
+}
+
+div img {
+width: 600px;
+margin-left: 80px;
+}
+#noneField {
+width: 270px;
+vertical-align:top;
+margin-right: 20px;
+}
+#importantField {
+    width: 400px;
+}
+#clearBtn {
+width: 295px;
+height: 40px;
+-moz-border-radius:7px;  
+  border-radius: 7px;  
+  -webkit-border-radius: 7px;
+  color:#375794;
+  font-size: larger;
+}
+
+#registerBtn {
+    width: 430px;
+margin-left: 20px;
+height: 40px;
+-moz-border-radius:7px;  
+  border-radius: 7px;  
+  -webkit-border-radius: 7px;
+  color:#375794;
+  font-size: larger;
+}
+.smallField {
+width: 60px;
+}
+
+.colum1 {
+    width: 124px;
+    margin-bottom: 7px;
+    margin-right: 2px;
+    
+    
+}
+.colum2 {
+        width: 124px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+.colum3 {
+   width: 124px;
+   margin-right: 2px;
+}
+#radio {
+margin-bottom: 40px;
+}
+

@@ -1,0 +1,87 @@
+body {
+    color: #5a5a5a;
+    background-color: #eee;
+    font-family:'PT Sans', tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+h2 {
+    font-size: 24px;
+    color: #234465;
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 17.6px;
+}
+fieldset {
+    border: 0;
+    width: 280px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+}
+input[type=submit] {
+    float: right;
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+#register {
+    float: left;
+    height: 270px;
+}
+#register h3 {
+    color: #666;
+}
+#reg {
+    color: #234465;
+}
+#regEmail:focus:invalid {
+    border: 1px solid #f00;
+}
+#regEmail:focus:valid {
+    border: 1px solid #0f0;
+}
+#regBtn {
+    color: #234465;
+    border: solid 2px #234465;
+    background: none;
+    width: 50%;
+}
+#regBtn:hover {
+    background-color: #234465;
+    color: #fff;
+}
+#login {
+    color: #fff;
+    background-color: #234465;
+    height: 270px;
+}
+#remember {
+    width: 20px;
+    float: left;
+}
+label.remember {
+    top: 5px;
+}
+#logBtn {
+    color: #fff;
+    border: solid 2px #FF9C00;
+    background: none;
+    width: 50%;
+}
+#logBtn:hover {
+    background-color: #FF9C00;
+}
+a {
+    color: #fff;
+    float: right;
+    text-decoration: underline;
+    display: block;
+    text-align: right;
+    width: 100%;
+}

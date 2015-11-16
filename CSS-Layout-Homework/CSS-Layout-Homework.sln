@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{A9A00F5D-6D85-4A89-82EE-584BBF229580}"
+	ProjectSection(SolutionItems) = preProject
+		styles\01_style.css = styles\01_style.css
+		styles\02_style.css = styles\02_style.css
+		styles\03_style.css = styles\03_style.css
+		styles\04_style.css = styles\04_style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{33F1FE8E-0CCE-4E53-AE4F-AC06CA259273}"
+	ProjectSection(SolutionItems) = preProject
+		01-WebsiteHeader.html = 01-WebsiteHeader.html
+		02-WebsiteFooter.html = 02-WebsiteFooter.html
+		03-TheSoftUniNews.html = 03-TheSoftUniNews.html
+		04-PrettyWebsite.html = 04-PrettyWebsite.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

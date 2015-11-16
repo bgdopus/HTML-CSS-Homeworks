@@ -1,0 +1,73 @@
+p, ul, li, input {
+    margin:0px;
+    padding:0px;
+}
+
+.listyle{
+    display: inline;
+    text-transform:uppercase;
+    font-family:Calibri;
+    font-size: 20px;
+    color:white;
+    margin:0 7px 0 0;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+.ulstyle{
+    list-style: none;
+    color:white;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+     font-family:Calibri;
+    font-size: 20px;
+    text-transform:uppercase;
+    font-weight: bold;
+    
+}
+
+.table_style {
+background-color:#234465;
+}
+
+
+table tr td {
+    text-align: right;
+    vertical-align: middle;
+    height: 32px;
+    
+}
+img {
+    padding-right: 1em;
+}
+form {
+    padding-left: 1em;
+}
+
+.user {
+    
+    vertical-align:top;
+}
+form {
+  padding-bottom: 0.5em;
+}
+
+.a:hover {
+  color: white ;
+  background-color: #4CA0DB ;
+  border-radius:5px;
+ 
+}
+  form input:first-child {
+        height:30px;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:10px;
+        text-align:left;
+        
+    }
+.submit {
+    vertical-align:middle;
+    padding-bottom: 0.3em;
+}

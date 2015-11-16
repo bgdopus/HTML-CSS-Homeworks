@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{770409A5-BA08-4D0A-AF01-F0116EA96C4B}"
+	ProjectSection(SolutionItems) = preProject
+		02-Exam-Results.html = 02-Exam-Results.html
+		03-Nested-Tables.html = 03-Nested-Tables.html
+		04-Website-Header.html = 04-Website-Header.html
+		1-Simple-Table.html = 1-Simple-Table.html
+		test.html = test.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{E1FA755C-A358-4D4E-AD5B-AF72AE535FE3}"
+	ProjectSection(SolutionItems) = preProject
+		styles\01_style.css = styles\01_style.css
+		styles\02_style.css = styles\02_style.css
+		styles\03_style.css = styles\03_style.css
+		styles\04_style.css = styles\04_style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

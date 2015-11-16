@@ -1,0 +1,16 @@
+body {
+    background-color:#ADD8E6;
+}
+img {
+   
+   border:2px solid #021a40;
+}
+
+p.italic {
+   font-style:italic;
+    margin: 0 !important;
+}
+
+p.profile {
+    margin: 0 !important;
+}

@@ -1,0 +1,19 @@
+table,td {
+border: 1px solid;
+font-family:Arial;
+font-size: 70px;
+}
+img {
+    vertical-align:middle;
+    margin-bottom: 25px;
+    margin-top:25px;
+    margin-left:8px;
+    margin-right:10px;
+    
+}
+.nested {
+    vertical-align:middle;
+    
+    margin-left:10px;
+    margin-right:10px;
+}

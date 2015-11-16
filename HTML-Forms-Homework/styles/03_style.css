@@ -1,0 +1,17 @@
+#bigLogo {
+    width: 200px;
+}
+#smallLogo {
+    width: 30px;
+    height: 30px;
+    vertical-align:middle;
+}
+
+#search {
+ height:30px;
+}
+#form2 {
+padding-top:15px;
+vertical-align:bottom;
+}
+
